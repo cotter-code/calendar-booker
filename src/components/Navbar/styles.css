@@ -1,0 +1,30 @@
+.Navbar__container {
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.Navbar__item {
+  padding: 10px 15px;
+}
+
+.Navbar__item a {
+  text-decoration: none;
+  color: #8b8b8b;
+  cursor: pointer;
+}
+
+.Navbar__button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Navbar__button a {
+  color: white;
+}

@@ -1,0 +1,86 @@
+.BookingPage__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vw;
+  min-height: calc(100vh - 80px);
+  background-color: #fafbfc;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.BookingPage__title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e202c;
+  padding-bottom: 15px;
+}
+.BookingPage__subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1e202c;
+  word-wrap: break-word;
+}
+
+.BookingPage__body-container {
+  padding: 40px;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.BookingPage__label-container {
+  margin: 20px 0px;
+}
+.BookingPage__label {
+  font-size: 14px;
+  color: #8b8b8b;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.BookingPage__avatar {
+  background: rgb(208, 137, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(208, 137, 255, 1) 0%,
+    rgba(253, 126, 29, 1) 52%,
+    rgba(255, 238, 120, 1) 100%
+  );
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.BookingPage__button {
+  background-color: #0f9d58;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.BookingPage__share-calendar {
+  background-color: white;
+}
+
+.BookingPage__section {
+  padding: 20px 0px;
+}
+
+.BookingPage__timeselect {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.BookingPage__timeselect .button {
+  margin: 5px 0px;
+  width: 150px;
+}
+
+.BookingPage__bookform {
+  background-color: white;
+  padding: 30px 40px;
+}
