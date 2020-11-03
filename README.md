@@ -6,6 +6,9 @@ Made with
 - [Cloudflare Workers](https://workers.cloudflare.com/) as a backend that will call Google Calendar API.
 - [Google Calendar API](https://developers.google.com/calendar/v3/reference) for booking time slots in your users' calendar.
 
+### Usage
+Go to `src/constants.js` and insert your Cotter API Keys and Cloudflare worker subdomain.
+
 ### Follow the tutorial
 (link)
 

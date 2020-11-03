@@ -55,13 +55,13 @@ async function handleRequest(request) {
     if (response.status != 200) throw new Error("Token doesn't exist");
   } catch (e) {
     console.log(e);
-    const body = JSON.stringify({ connected: false });
+    const body = JSON.stringify({ success: false });
     return new Response(body, {
       status: 500,
     });
   }
 
-  const body = JSON.stringify({ connected: true });
+  const body = JSON.stringify({ success: true });
   return new Response(body, { status: 200 });
 }
 
