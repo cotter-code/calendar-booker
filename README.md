@@ -10,7 +10,7 @@ Made with
 Go to `src/constants.js` and insert your Cotter API Keys and Cloudflare worker subdomain.
 
 ### Follow the tutorial
-(link)
+[Cotter + Cloudflare Workers + Google Calendar API: Build a Serverless Calendar Booking App](https://blog.cotter.app/cotter-cloudflare-workers-google-calendar-api-build-a-serverless-calendar-booking-app/)
 
 ### Cloudflare Worker code
 Get the code for the Cloudflare Workers [here](https://github.com/cotter-code/calendar-booker/tree/main/cloudflare)
