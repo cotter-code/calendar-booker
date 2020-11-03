@@ -1,5 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cotter Calendar Booker
+A Calendar Booking app that allows people to book a time in user's Google Calendar.
 
+Made with
+- [Cotter](https://www.cotter.app/) for login and connecting to user's Google Account
+- [Cloudflare Workers](https://workers.cloudflare.com/) as a backend that will call Google Calendar API.
+- [Google Calendar API](https://developers.google.com/calendar/v3/reference) for booking time slots in your users' calendar.
+
+### Follow the tutorial
+(link)
+
+### Cloudflare Worker code
+Get the code for the Cloudflare Workers [here](https://github.com/cotter-code/calendar-booker/tree/main/cloudflare)
+
+---
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
