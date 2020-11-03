@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "cotter-react": {
-      "signature": "6f446cab663ecd9226558103f34c1088",
-      "file": true
-    }
-  }
-}
